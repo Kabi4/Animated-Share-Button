@@ -37,7 +37,6 @@ body{
     border-radius: 100%;
     background-color:red;
     border: none;
-    
     visibility: hidden;
     opacity: 0;
     transition: all 0.3s;
@@ -53,7 +52,8 @@ body{
     border-radius: 100%;
     background-color:darkblue;
     border: none;
-    box-shadow: 0rem 0rem 3rem darkblue;
+    box-shadow:none;
+   
 }
 .insta{
     text-align:center;
@@ -66,7 +66,8 @@ body{
     border-radius: 100%;
     background-color:hotpink;
     border: none;
-    box-shadow: 0rem 0rem 3rem hotpink;
+    box-shadow:none;
+    
 }
 .google{
     text-align:center;
@@ -79,7 +80,8 @@ body{
     border-radius: 100%;
     background-color:rgb(231, 143, 143);
     border: none;
-    box-shadow: 0rem 0rem 3rem rgb(231, 143, 143);
+    box-shadow:none;
+    
 }
 .twitter{
     text-align:center;
@@ -92,7 +94,8 @@ body{
     border-radius: 100%;
     background-color:skyblue;
     border: none;
-    box-shadow: 0rem 0rem 3rem skyblue;
+    box-shadow:none;
+    
 }
 
 .share:focus{
@@ -109,15 +112,19 @@ body{
 
 .share:focus ~ .facebook{
     transform: translateX(100px);
+    box-shadow: 0rem 0rem 3rem darkblue;
 }
 .share:focus ~ .insta{
     transform: translateY(100px);
+    box-shadow: 0rem 0rem 3rem hotpink;
 }
 .share:focus ~ .google{
     transform: translateX(-100px);
+    box-shadow: 0rem 0rem 3rem rgb(231, 143, 143);
 }
 .share:focus ~ .twitter{
     transform: translateY(-100px);
+    box-shadow: 0rem 0rem 3rem skyblue;
 }
 .share:focus ~ .facebook{
     transform: translateX(100px);
