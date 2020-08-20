@@ -129,3 +129,15 @@ body{
 .share:focus ~ .facebook{
     transform: translateX(100px);
 }
+.facebook:focus{
+    outline: none;   
+}
+.insta:focus{
+    outline: none;   
+}
+.twitter:focus{
+    outline: none;   
+}
+.google:focus{
+    outline: none;   
+}
