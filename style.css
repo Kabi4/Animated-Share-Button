@@ -37,7 +37,7 @@ body{
     border-radius: 100%;
     background-color:red;
     border: none;
-    box-shadow: 0rem 0rem 3rem red;
+    
     visibility: hidden;
     opacity: 0;
     transition: all 0.3s;
